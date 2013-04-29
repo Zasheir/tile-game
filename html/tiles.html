@@ -1,0 +1,38 @@
+<div ng-app ng-controller="TilesController">
+    <p>Time remaining {{timeRemaining.val}}</p>
+
+    <div ng-repeat="col in cols">
+        <div ng-repeat="tile in col.row">
+            <div class="tile {{tile.color}}">
+            </div>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <!--
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+
+    <div class="tile black" style="clear: both"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    -->
+</div>
